@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ChenSino</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="icon" type="image/png" href="./heart-regular.svg">
+
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+
+
+    <style>
+        .notification {
+            display: none;
+            width: 80%;
+            color: red;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            animation: blink 3s linear infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            font-family: "Segoe UI", "Helvetica Neue", sans-serif, "Microsoft YaHei";
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .app {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app .title {
+            font-size: 20px;
+            padding-top: 20px;
+            padding-left: 25px;
+        }
+
+        .app .main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .app .footer {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main .container {
+            width: 850px;
+            height: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .container a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        a.box:hover {
+            border: 2px solid #ffffff;
+            margin: 3px;
+        }
+
+        .box {
+            width: 200px;
+            height: 120px;
+            margin: 5px;
+            border-radius: 2px;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box i {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <div class="title">
+            ChenSino云服务
+        </div>
+        <div>
+            <h1 class="notification">
+                <!--通知信息写在这里，记得在notification class样式开启display:true-->
+                亲爱的家人朋友，家庭影院今日新增近期热播剧，欢迎体验
+            </h1>
+        </div>
+        <div class="main">
+            <div class="container" id="mainer">
+
+            </div>
+        </div>
+        <div class="footer">
+            Design By ChenSino
+        </div>
+    </div>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.getJSON('./links.json', '', function (result) {
+                for (var i in result) {
+                    if (result.hasOwnProperty(i)) {
+                        var ele = '<a href="javascript:void(0)" class="box animate__animated animate__flipInY" style="background-color: ' + result[i].color
+                            + ';" data-href="' + result[i].url
+                            + '"><i class="fa fa-' + result[i].icon
+                            + '"></i>' + result[i].title
+                            + '</a>';
+
+                        $('#mainer').append(ele);
+                    }
+                }
+
+                var orignal = 'flipInY';
+                var animation = 'jello';
+
+                $('.box').on('mouseover', function () {
+                    $(this).removeClass('animate__' + orignal).addClass('animate__' + animation)
+
+                });
+
+                $('.box').on('mouseout', function () {
+                    $(this).removeClass(animation)
+                });
+
+
+                $('.box').on('click', function () {
+                    window.open($(this).attr('data-href'));
+                });
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>

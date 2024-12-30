@@ -1,0 +1,77 @@
+[
+    {
+        "title": "NAS",
+        "color": "#b95fb7",
+        "url": "https://nas.chensina.cn:5667",
+        "icon": "server"
+    },
+    {
+        "title": "NasTool",
+        "color": "#EE82EE",
+        "url": "http://192.168.1.105:3002/",
+        "icon": "cog"
+    },
+    {
+        "title": "QBit",
+        "color": "#d3573f",
+        "url": "http://192.168.1.250:8085/",
+        "icon": "cog"
+    },
+    {
+        "title": "飞牛影音",
+        "color": "#20B2AA",
+        "url": "https://nas.chensina.cn:5667/v",
+        "icon": "film"
+    },
+    {
+        "title": "Kuma",
+        "color": "#6A5ACD",
+        "url": "http://192.168.1.105:3001",
+        "icon": "watchman-monitoring fa-brands"
+    },
+    
+    {
+        "title": "PVE",
+        "color": "#6495ED",
+        "url": "https://pve.chensina.cn",
+        "icon": "server"
+    },
+   
+    {
+        "title": "OpenWRT",
+        "color": "#8968CD",
+        "url": "http://192.168.1.30",
+        "icon": "microchip"
+    },
+
+    {
+        "title": "JavaGuide",
+        "color": "#CD5C5C",
+        "url": "https://javaguide.cn/home.html",
+        "icon": "java fa-brands"
+    },
+    {
+        "title": "任务管理",
+        "color": "#FA8072",
+        "url": "http://192.168.1.105:9010",
+        "icon": "list-ol"
+    },
+    {
+        "title": "GoBack",
+        "color": "#483D8B",
+        "url": "http://192.168.1.105:2703/",
+        "icon": "microchip"
+    },
+    {
+        "title": "Jenkins",
+        "color": "#7B68EE",
+        "url": "http://192.168.1.105:8899/",
+        "icon": "jenkins fa-brands"
+    },
+    {
+        "title": "ELK",
+        "color": "#8A2BE2",
+        "url": "http://192.168.1.105:5601/",
+        "icon": "search"
+    }
+]
