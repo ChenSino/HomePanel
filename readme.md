@@ -1,7 +1,9 @@
 ### 使用方式
 
-1. 在links.json添加站点，图标和颜色请参考下边的地址
-2. 整个项目复制到nginx，配置好解析路径
+1. 下载仓库`git clone https://github.com/ChenSino/HomePanel.git`
+2. 安装依赖`npm install`，（若不想安装依赖或者没有node环境，请使用cdn分支）
+3. 在links.json添加站点，图标和颜色请参考下边的地址
+4. 整个项目复制到nginx，配置好解析路径
 
 ### 图标icon
 
