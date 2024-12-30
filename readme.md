@@ -16,3 +16,7 @@
 <https://animatecss.node.org.cn/>
 
 若想修改鼠标悬浮动画请修改index.html中`var animation = 'jello';`字段值即可
+
+### 效果图
+
+![效果图](https://ddns.chensina.cn:29000/afatpig/blog/20241230112136477.png)
