@@ -35,8 +35,9 @@
 
   --section-gap: 160px;
 }
+/*关注用户系统或者浏览器是否选择light(浅色主题)模式，当用户选择了light模式则以下样式生效*/
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --color-background: var(--vt-c-black);
     --color-background-soft: var(--vt-c-black-soft);
