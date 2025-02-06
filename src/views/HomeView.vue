@@ -1,12 +1,12 @@
 <template>
-  <div class="brand">ChenSino家庭云提供服务</div>
+  <div class="brand">ChenSino私有服务</div>
   <div class="container">
     <div class="header">
       <div class="header-child">
         <span class="notification">{{ notificationMsg }}</span>
       </div>
       <div class="header-child">
-        <el-input v-model.trim="searchText" @input="getList" :autofocus="true" :suffix-icon="Search" />
+        <el-input v-model.trim="searchText" @input="getList" placeholder="请输入拼音或者文字搜索..." :autofocus="true" :suffix-icon="Search" />
       </div>
     </div>
 
