@@ -6,7 +6,8 @@
         <span class="notification">{{ notificationMsg }}</span>
       </div>
       <div class="header-child">
-        <el-input v-model.trim="searchText" @input="getList" placeholder="请输入拼音或者文字搜索..." :autofocus="true" :suffix-icon="Search" />
+        <el-input v-model.trim="searchText" @input="getList" placeholder="请输入拼音或者文字搜索..." :autofocus="true"
+          :suffix-icon="Search" />
       </div>
     </div>
 
@@ -42,6 +43,7 @@ onMounted(() => {
 
 // 根据搜索值获取过滤后的列表
 const getList = (val: string) => {
+  val = val.trim()
   if (val) {
     iconShowList.value = iconList.value.filter((item) => {
       val = val.toLowerCase()
