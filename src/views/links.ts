@@ -2,6 +2,13 @@ import type { Item } from '@/api/Item'
 
 export const links: Item[] = [
   {
+    title: '我的博客',
+    color: '#FF1493',
+    url: 'https://chensina.cn',
+    icon: 'fa-blog',
+    pinyin: 'blog',
+  },
+  {
     title: '飞牛NAS',
     color: '#b95fb7',
     url: 'https://nas.chensina.cn:5667',
@@ -72,13 +79,6 @@ export const links: Item[] = [
     url: 'http://chensina.cn:3443/',
     icon: 'wifi',
     pinyin: 'zerotierzuwang',
-  },
-  {
-    title: '博客',
-    color: '#2E8B57',
-    url: 'https://chensina.cn',
-    icon: 'fa-blog',
-    pinyin: 'blog',
   },
   {
     title: 'Docker文档',
