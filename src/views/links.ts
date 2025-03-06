@@ -52,13 +52,6 @@ export const links: Item[] = [
     pinyin: 'tpzhuluyou',
   },
   {
-    title: 'TP交换机',
-    color: 'DarkCyan',
-    url: 'http://192.168.1.20',
-    icon: 'satellite-dish',
-    pinyin: 'tpjiaohuanji',
-  },
-  {
     title: 'iKuai',
     color: '#8968CD',
     url: 'http://192.168.1.80',
