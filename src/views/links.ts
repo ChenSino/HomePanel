@@ -95,6 +95,13 @@ export const links: Item[] = [
     pinyin: 'javaguide',
   },
   {
+    title: '小林Coding',
+    color: '#CD5C5C',
+    url: 'https://www.xiaolincoding.com/',
+    icon: 'fa-java fa-brands',
+    pinyin: 'xiaolincoding',
+  },
+  {
     title: '任务管理',
     color: '#FA8072',
     url: 'https://todo.chensina.cn/',
