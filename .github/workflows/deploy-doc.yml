@@ -20,7 +20,7 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 22.9.0
     
       - name: 清理旧依赖
         run: |
