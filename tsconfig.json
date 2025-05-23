@@ -1,8 +1,4 @@
 {
-  "compilerOptions": {
-    "lib": ["es2022", "dom"], // 合法值组合示例
-    "target": "es2022"        // 需与 lib 版本匹配
-  },
   "files": [],
   "references": [
     {
