@@ -83,7 +83,7 @@ export const links: Item[] = [
   {
     title: 'ElementPlus文档',
     color: '#DAA520',
-    url: 'https://chensina.cn:9003',
+    url: 'https://chensina.cn:2028',
     icon: 'fa-book',
     pinyin: 'elementpluswendang',
   },
@@ -104,14 +104,14 @@ export const links: Item[] = [
   {
     title: '任务管理',
     color: '#FA8072',
-    url: 'https://todo.chensina.cn/',
+    url: 'http://ddns.chensina.cn:2029',
     icon: 'list-ol',
     pinyin: 'renwuguanli',
   },
   {
     title: 'Kuma',
     color: '#6A5ACD',
-    url: 'https://chensina.cn:3001',
+    url: 'https://chensina.cn:2026',
     icon: 'fa-brands fa-watchman-monitoring',
     pinyin: 'kuma',
   },
@@ -125,7 +125,7 @@ export const links: Item[] = [
   {
     title: 'Jenkins',
     color: '#7B68EE',
-    url: 'http://192.168.1.105:8899/',
+    url: 'http://192.168.1.105:2031/',
     icon: 'fa-jenkins fa-brands',
     pinyin: 'jenkins',
   },
@@ -139,7 +139,7 @@ export const links: Item[] = [
   {
     title: 'Minio',
     color: '#00CED1',
-    url: 'https://ddns.chensina.cn:29001/',
+    url: 'https://ddns.chensina.cn:2033/',
     icon: 'hdd',
     pinyin: 'minio',
   },
@@ -153,7 +153,7 @@ export const links: Item[] = [
   {
     title: 'yudao商城',
     color: '#5F9EA0',
-    url: 'https://huinaimei.chensina.cn:3000/',
+    url: 'https://huinaimei.chensina.cn:2035/',
     icon: 'cart-shopping',
     pinyin: 'yudaoshangcheng',
   },
