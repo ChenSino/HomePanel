@@ -104,9 +104,9 @@ export const links: Item[] = [
   {
     title: '任务管理',
     color: '#FA8072',
-    url: 'http://ddns.chensina.cn:2029',
+    url: 'https://ddns.chensina.cn:2036',
     icon: 'list-ol',
-    pinyin: 'renwuguanli',
+    pinyin: 'renwuguanlidootask',
   },
   {
     title: 'Kuma',
