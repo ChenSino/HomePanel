@@ -171,4 +171,11 @@ export const links: Item[] = [
     icon: 'microchip',
     pinyin: 'codecvjianli',
   },
+  {
+    title: 'SSL证书部署',
+    color: '#1E90FF',
+    url: 'http://192.168.1.105:7979',
+    icon: 'fa-brands fa-expeditedssl',
+    pinyin: 'sslzhengshu',
+  },
 ]
