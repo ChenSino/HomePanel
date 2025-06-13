@@ -60,7 +60,7 @@ export const links: Item[] = [
   },
   {
     title: 'V2raya',
-    color: '#6495ED',
+    color: '#2465ED',
     url: 'http://192.168.1.80:2017',
     icon: 'fa-regular fa-paper-plane',
     pinyin: 'v2raya',
@@ -96,7 +96,7 @@ export const links: Item[] = [
   },
   {
     title: '小林Coding',
-    color: '#CD5C5C',
+    color: '#ABCDAC',
     url: 'https://www.xiaolincoding.com/',
     icon: 'fa-java fa-brands',
     pinyin: 'xiaolincoding',
