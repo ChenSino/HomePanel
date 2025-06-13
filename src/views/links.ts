@@ -101,13 +101,13 @@ export const links: Item[] = [
     icon: 'fa-java fa-brands',
     pinyin: 'xiaolincoding',
   },
-  {
-    title: '任务管理',
-    color: '#FA8072',
-    url: 'https://ddns.chensina.cn:2036',
-    icon: 'list-ol',
-    pinyin: 'renwuguanlidootask',
-  },
+  // {
+  //   title: '任务管理',
+  //   color: '#FA8072',
+  //   url: 'https://ddns.chensina.cn:2036',
+  //   icon: 'list-ol',
+  //   pinyin: 'renwuguanlidootask',
+  // },
   {
     title: 'Kuma',
     color: '#6A5ACD',
