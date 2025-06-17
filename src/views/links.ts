@@ -69,7 +69,7 @@ export const links: Item[] = [
   {
     title: 'Zerotier组网',
     color: '#00BFFF',
-    url: 'https://zerotierchensina.cn',
+    url: 'https://zerotier.chensina.cn',
     icon: 'wifi',
     pinyin: 'zerotierzuwang',
   },
