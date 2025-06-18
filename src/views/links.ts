@@ -52,11 +52,11 @@ export const links: Item[] = [
     pinyin: 'tpzhuluyou',
   },
   {
-    title: 'iKuai',
+    title: 'iStore',
     color: '#8968CD',
     url: 'http://192.168.1.80',
     icon: 'wifi',
-    pinyin: 'ikuai',
+    pinyin: 'iStore',
   },
   {
     title: 'V2raya',
