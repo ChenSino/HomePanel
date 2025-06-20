@@ -167,7 +167,7 @@ export const links: Item[] = [
   {
     title: 'CodeCV简历',
     color: '#DA70D6',
-    url: 'http://192.168.1.105:8080',
+    url: 'https://codecv.chensina.cn/',
     icon: 'microchip',
     pinyin: 'codecvjianli',
   },
