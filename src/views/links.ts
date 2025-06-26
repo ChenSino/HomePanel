@@ -174,7 +174,7 @@ export const links: Item[] = [
   {
     title: 'SSL证书部署',
     color: '#1E90FF',
-    url: 'http://192.168.1.105:7979',
+    url: 'http://192.168.1.105:7979/allinssl',
     icon: 'fa-brands fa-expeditedssl',
     pinyin: 'sslzhengshu',
   },
