@@ -65,9 +65,16 @@ const handleMouseOut = () => {
 </script>
 
 <style scoped lang="less">
+@media screen and (min-width: 1024px) {
+  .container {
+    min-width: 60vw;//屏幕宽度60%
+  }
+}
+
 .container {
   align-items: center;
   height: 90vh;
+
 
   .header {
     display: flex;
