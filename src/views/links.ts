@@ -23,13 +23,13 @@ export const links: Item[] = [
     pinyin: 'feiniuyingyin',
   },
 
-  {
-    title: 'NasTool',
-    color: '#EE82EE',
-    url: 'http://192.168.1.105:3002/',
-    icon: 'fa-cog',
-    pinyin: 'nastool',
-  },
+  // {
+  //   title: 'NasTool',
+  //   color: '#EE82EE',
+  //   url: 'http://192.168.1.105:3002/',
+  //   icon: 'fa-cog',
+  //   pinyin: 'nastool',
+  // },
   {
     title: 'QBittorrent',
     color: '#d3573f',
@@ -101,6 +101,14 @@ export const links: Item[] = [
     icon: 'fa-java fa-brands',
     pinyin: 'xiaolincoding',
   },
+  {
+    title: 'javabetter',
+    color: '#20B2AA',
+    url: 'https://javabetter.cn/',
+    icon: 'fa-java fa-brands',
+    pinyin: 'javabetter',
+  },
+
   // {
   //   title: '任务管理',
   //   color: '#FA8072',
