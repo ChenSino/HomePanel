@@ -44,6 +44,13 @@ export const links: Item[] = [
     icon: 'server',
     pinyin: 'pve',
   },
+    {
+    title: 'OpenClaw',
+    color: '#00BFFF',
+    url: 'http://192.168.1.105:18789',
+    icon: 'fa-sharp fa-solid fa-microchip-ai',
+    pinyin: 'openclaw',
+  },
   {
     title: 'TP主路由',
     color: '#2F4F4F',
