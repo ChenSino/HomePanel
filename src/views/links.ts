@@ -44,11 +44,11 @@ export const links: Item[] = [
     icon: 'server',
     pinyin: 'pve',
   },
-    {
+  {
     title: 'OpenClaw',
-    color: '#00BFFF',
+    color: '#FF4500',
     url: 'http://192.168.1.105:18789',
-    icon: 'fa-sharp fa-solid fa-microchip-ai',
+    icon: 'fa-robot',
     pinyin: 'openclaw',
   },
   {

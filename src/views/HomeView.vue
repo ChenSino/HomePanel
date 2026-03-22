@@ -67,7 +67,7 @@ const handleMouseOut = () => {
 <style scoped lang="less">
 @media screen and (min-width: 1024px) {
   .container {
-    min-width: 60vw;//屏幕宽度60%
+    min-width: 60vw; //屏幕宽度60%
   }
 }
 
@@ -157,7 +157,7 @@ const handleMouseOut = () => {
     a {
       font-size: clamp(1rem, 2vw, 1.5rem); // 适配大屏幕字体大小
       // 设置响应式高度
-      height: clamp(80px, 12vh, 150px); // 最小80px，最大150px，基于视窗高度动态调整
+      height: clamp(85px, 12vh, 150px); // 最小80px，最大150px，基于视窗高度动态调整
     }
   }
 
