@@ -47,7 +47,7 @@ export const links: Item[] = [
   {
     title: 'OpenClaw',
     color: '#FF4500',
-    url: 'http://192.168.1.105:18789',
+    url: 'https://openclaw.chensina.cn',
     icon: 'fa-robot',
     pinyin: 'openclaw',
   },
