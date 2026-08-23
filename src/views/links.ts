@@ -150,6 +150,13 @@ export const links: Item[] = [
     icon: 'fa-jenkins fa-brands',
     pinyin: 'jenkins',
   },
+    {
+    title: 'Promethus',
+    color: '#8A2BE2',
+    url: 'http://192.168.1.105:2050/',
+    icon: 'fa-solid fa-desktop',
+    pinyin: 'elasticlogstashkibana',
+  },
   {
     title: 'ELK',
     color: '#8A2BE2',
