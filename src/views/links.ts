@@ -45,11 +45,11 @@ export const links: Item[] = [
     pinyin: 'pve',
   },
   {
-    title: 'QwenClaw',
+    title: 'QwenPaw',
     color: '#FF4500',
-    url: 'https://qwenclaw.chensina.cn',
+    url: 'https://qwenpaw.chensina.cn',
     icon: 'fa-robot',
-    pinyin: 'qwenclaw',
+    pinyin: 'qwenpaw',
   },
   {
     title: 'TP主路由',
